@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* create font faces */
+@font-face {
+    font-family: "Dana-Black";
+    src: url("./fonts/Dana-Black.ttf") format(".ttf");
+}
+
+@font-face {
+    font-family: "Dana-Bold";
+    src: url("./fonts/Dana-Bold.ttf") format(".ttf");
+}
+
+@font-face {
+    font-family: "Dana-Demi";
+    src: url("./fonts/Dana-Demi.ttf") format(".ttf");
+}
+
+@font-face {
+    font-family: "Dana-Light";
+    src: url("./fonts/Dana-Light.ttf") format(".ttf");
+}
+
+/* add fonts to class */
+.font-black {
+    font-family: "Dana-Black";
+}
+
+.font-bold {
+    font-family: "Dana-Bold";
+}
+
+.font-demi {
+    font-family: 'Dana-Demi';
+}
+
+.font-light {
+    font-family: 'Dana-Light';
+}
