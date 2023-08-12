@@ -2,7 +2,11 @@
 export default {
   content: ["./src/**/*.vue","./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        "gold" : "#D1AF89"
+      }
+    },
   },
   plugins: [],
 }
