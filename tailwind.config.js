@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        secondary : "#1E2D48"
-      }
+        "secondary" : "#1E2D48",
+        "gold" : "#D1AF89"
     },
   },
   plugins: [],
+  }
 }
-
