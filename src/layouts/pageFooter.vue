@@ -91,7 +91,7 @@
   </footer>
   <div class="flex justify-center items-center p-5 gap-3">
     <buttom class="w-10 h-10 flex items-center justify-center bg-slate-400/50 rounded-full text-white text-2xl cursor-pointer" @click="backToUp">↑</buttom>
-    <h1>تمام حقوق این وبسایت متعلق به دنوین میباشد</h1>
+    <h1>All Right Reserve For Denovin Software Development</h1>
   </div>
 </template>
 

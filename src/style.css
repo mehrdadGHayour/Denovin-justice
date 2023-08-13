@@ -4,57 +4,29 @@
 
 /* create font faces */
 @font-face {
-    font-family: anjoman;
-    src: url('/fonts/Anjoman-Medium.woff2') format('woff2'); 
+  font-family: "Vazir";
+  src: url("layouts/Vazir.woff") format("woff");
 }
 @font-face {
-    font-family: Dana-Black;
-    src: url('/fonts/Dana-Black.woff') format('woff'); 
+  font-family: "Lale";
+  src: url("../public/fonts/") format(".otf");
 }
-@font-face {
-    font-family: 'shabnam';
-    src: url('/fonts/Shabnam.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
+/* another styles */
+.Slider-bg {
+  background: url("/images/Pattern.svg"), #1e2d48;
+  background-repeat: no-repeat;
 }
-.shabnam{
-    font-family: 'shabnam';
+.swiper-pagination-bullet {
+  transition: all 150ms, background 0.4s;
+  background: white;
+  opacity: 1;
 }
-
-@font-face {
-    font-family: Dana-Bold;
-    src: url("/fonts/Dana-Bold.ttf") format("ttf");
-}
-
-@font-face {
-    font-family: Dana-Demi;
-    src: url("/fonts/Dana-Demi.ttf") format("ttf");
+.swiper-pagination-bullet-active {
+  border-radius: 10px !important;
+  background: #d1af89;
+  width: 50px !important;
 }
 
-@font-face {
-    font-family: Dana-Light;
-    src: url("/fonts/Dana-Light.ttf") format("ttf");
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-/* add fonts to class */
-.dana-black {
-    font-family: "Dana Black";
-    color: red;
-}
-
-.dana-bold {
-    font-family: "Dana-Bold";
-}
-
-.dana-demi {
-    font-family: 'Dana-Demi';
-}
-
-.dana-light {
-    font-family: 'Dana-Light';
-}
-.Slider-bg{
-    background: url("/images/Pattern.svg") , #1E2D48;
-    background-repeat: no-repeat;
-    }
