@@ -15,18 +15,25 @@
 .Slider-bg {
   background: url("/images/Pattern.svg"), #1e2d48;
   background-repeat: no-repeat;
+  --swiper-pagination-color : #d1af89 !important;
+  --swiper-pagination-bullet-inactive-color : rgb(255, 255, 255) !important;
+  --swiper-pagination-bullet-inactive-opacity : 1;
 }
+
 .swiper-pagination-bullet {
   transition: all 150ms, background 0.4s;
-  background: white;
-  opacity: 1;
+  background: white !important;
+  opacity: 1 !important;
 }
 .swiper-pagination-bullet-active {
   border-radius: 10px !important;
-  background: #d1af89;
+  background: #d1af89 !important;
   width: 50px !important;
+  --swiper-pagination-bullet-width:50px;
 }
 
-* {
-  font-family: Arial, Helvetica, sans-serif;
+span[part=bullet-active] {
+  border-radius: 10px !important;
+  background: #d1af89;
+  width: 50px !important;
 }

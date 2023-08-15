@@ -5,7 +5,8 @@ export default {
     extend: {
       colors: {
         "secondary": "#1E2D48",
-        "gold": "#D1AF89"
+        "gold": "#D1AF89",
+        "sGray" : "DDE1E9",
       },
       fontFamily:{
         "Dana-black":"Dana-Black"

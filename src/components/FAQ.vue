@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <div
-      class="bg-secondary flex flex-col Slider-bg p-10 h-full mt-[800px] items-end w-full gap-10">
+      class="bg-secondary flex flex-col Slider-bg sm:p-10 h-full mt-[505px] items-end w-full gap-10">
       <div class="self-start pt-3 w-full flex justify-between">
         <div>
           <div class="flex gap-4">
@@ -26,7 +26,7 @@
           </h4>
         </div>
         <div class="flex gap-3 items-center">
-          <button class="bg-slate-700 rounded-full">
+          <button class="bg-slate-700 rounded-full" @click="goBack">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="40"
@@ -42,7 +42,7 @@
                 fill="white" />
             </svg>
           </button>
-          <button class="bg-slate-700 rounded-full" @click="swiper.slideNext">
+          <button class="bg-slate-700 rounded-full Slidebtn" @click="goNext">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="39"
@@ -65,14 +65,19 @@
       </div>
 
       <div class="w-full">
-        <swiper
+        <swiper-container
+          ref="swiperRef"
           :pagination="true"
           :slidesPerView="3"
           :modules="modules"
           :breakpoints="{
+            '300': {
+              slidesPerView: 1,
+              spaceBetween: 50,
+            },
             '640': {
               slidesPerView: 1,
-              spaceBetween: 20,
+              spaceBetween: 40,
             },
             '768': {
               slidesPerView: 3,
@@ -85,10 +90,11 @@
           }"
           class="mySwiper">
           <swiper-slide v-for="number in num">
-            <div class="bg-slate-600 w-[385px] h-[76px] rounded-3xl mr-7"></div>
+            <div
+              class="bg-slate-600 sm:w-[385px] h-[76px] rounded-3xl sm:mr-7"></div>
 
             <div
-              class="flex flex-col items-start justify-start p-3 bg-white rounded-3xl w-[438px] h-[367px] select-none -translate-y-16">
+              class="flex flex-col items-start justify-start p-3 bg-white rounded-3xl sm:w-[438px] h-[367px] select-none -translate-y-16">
               <div class="flex">
                 <img src="images/Ellipse 7.png" alt="#" class="rounded-full" />
                 <div class="flex flex-col items-start w-full mr-2">
@@ -113,22 +119,28 @@
               </div>
             </div>
           </swiper-slide>
-        </swiper>
+        </swiper-container>
       </div>
     </div>
   </div>
 </template>
-<script setup>
-import { Swiper, SwiperSlide } from "swiper/vue";
-import { useSwiper } from "swiper/vue";
-import { Pagination } from "swiper/modules";
 
+<script setup>
+import { register } from "swiper/element/bundle";
+import { Pagination } from "swiper/modules";
+import {ref} from "vue"
+
+register();
 const modules = [Pagination];
 const num = [1, 2, 3, 4, 5];
 
-const Slider = useSwiper();
-// const GoNext = () => {
-//   Slider.slideTo(2);
-//   console.log("OK!!");
-// };
+const swiperRef = ref(null);
+
+const goNext = () => {
+  swiperRef.value.swiper.slideNext();
+}
+const goBack = () =>{
+  swiperRef.value.swiper.slidePrev();
+}
+
 </script>

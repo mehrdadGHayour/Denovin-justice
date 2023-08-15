@@ -1,13 +1,5 @@
 <template>
-  <header class="z-10">
-    <img
-      class="absolute top-0 max-lg:-right-96 max-md:-right-40 disable-selection"
-      src="/images/Group 2359.svg"
-      alt="" />
-    <img
-      class="absolute top-0 max-lg:-right-96 max-md:-right-40 disable-selection"
-      src="/images/Group 2360.svg"
-      alt="" />
+  <header class="z-20">
     <div
       class="container mx-auto flex justify-between items-center px-10 lg:px-32 py-5">
       <img class="z-10" src="/images/Logo.png" alt="logo" />
@@ -148,7 +140,7 @@
             </button>
           </div>
         </div>
-        <button class="border rounded-lg p-1 bg-slate-200/10">
+        <button class="border rounded-lg p-1 bg-slate-200/10 lg:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
