@@ -19,7 +19,7 @@
                 d="M17 25.1457C17.2818 25.1457 17.552 25.0337 17.7513 24.8345C17.9505 24.6352 18.0625 24.365 18.0625 24.0832V15.5832C18.0625 15.3014 17.9505 15.0311 17.7513 14.8319C17.552 14.6326 17.2818 14.5207 17 14.5207C16.7182 14.5207 16.4479 14.6326 16.2487 14.8319C16.0494 15.0311 15.9375 15.3014 15.9375 15.5832V24.0832C15.9375 24.6697 16.4135 25.1457 17 25.1457ZM17 9.9165C17.3757 9.9165 17.736 10.0658 18.0017 10.3314C18.2674 10.5971 18.4166 10.9574 18.4166 11.3332C18.4166 11.7089 18.2674 12.0692 18.0017 12.3349C17.736 12.6006 17.3757 12.7498 17 12.7498C16.6243 12.7498 16.2639 12.6006 15.9982 12.3349C15.7326 12.0692 15.5833 11.7089 15.5833 11.3332C15.5833 10.9574 15.7326 10.5971 15.9982 10.3314C16.2639 10.0658 16.6243 9.9165 17 9.9165Z"
                 fill="#D1AF89" />
             </svg>
-            <h1 class="text-white text-2xl font-bold">پرسش و پاسخ ها</h1>
+            <h1 class="text-white text-2xl font-bold ">پرسش و پاسخ ها</h1>
           </div>
           <h4 class="text-slate-600 text-md mr-10">
             سوالات و پاسخ های مطرح شده
@@ -94,7 +94,7 @@
               class="bg-slate-600 sm:w-[385px] h-[76px] rounded-3xl sm:mr-7"></div>
 
             <div
-              class="flex flex-col items-start justify-start p-3 bg-white rounded-3xl sm:w-[438px] h-[367px] select-none -translate-y-16">
+              class="flex flex-col  items-start justify-start p-3 bg-white rounded-3xl sm:w-[438px] h-[367px] select-none -translate-y-16">
               <div class="flex">
                 <img src="images/Ellipse 7.png" alt="#" class="rounded-full" />
                 <div class="flex flex-col items-start w-full mr-2">
@@ -103,8 +103,8 @@
                 </div>
               </div>
               <hr class="w-full mt-5" />
-              <div>
-                <h1 class="font-bold py-5 px-3">
+              <div class="text-sm">
+                <h1 class=" py-5 px-3">
                   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
                   استفاده از طراحان گرافیک است؟
                 </h1>

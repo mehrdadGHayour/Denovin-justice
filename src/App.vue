@@ -16,7 +16,7 @@ import pageHeader from "./layouts/pageHeader.vue";
 import FAQ from "./components/FAQ.vue";
 import Section1 from "./layouts/Home/Section1.vue";
 import licenseSlider from "./layouts/Home/licenseSlider.vue";
-import contactUs from "./layouts/Home/contactus.vue"
+import contactUs from "./layouts/Home/contactUs.vue";
 </script>
 
 <style scoped></style>

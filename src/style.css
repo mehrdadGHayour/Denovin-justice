@@ -4,12 +4,15 @@
 
 /* create font faces */
 @font-face {
-  font-family: "Vazir";
-  src: url("layouts/Vazir.woff") format("woff");
+  font-family: 'Dana';
+  src: url('../public/fonts/');
+  src: url('/fonts/Dana-Black.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Dana-Black.woff2') format('woff2'),
+      url('/fonts/Dana-Black.woff') format('woff'),
+      url('/fonts/Dana-Black.ttf') format('truetype');
 }
-@font-face {
-  font-family: "Lale";
-  src: url("../public/fonts/") format(".otf");
+body{
+  font-family: 'Dana';
 }
 /* another styles */
 .Slider-bg {

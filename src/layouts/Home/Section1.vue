@@ -3,8 +3,8 @@
     class="absolute top-0 select-none -z-10 max-lg:-right-32 max-lg:w-[600px] lg:w-1/2"
     src="/images/Group2359.svg"
     alt="" />
-  <section class="flex justify-center items-center max-w-7xl mx-auto flex-wrap">
-    <svg
+  <section class="flex justify-center items-center max-w-7xl mx-auto flex-wrap h-[600px]">
+    <!-- <svg
       class="absolute -z-20"
       xmlns="http://www.w3.org/2000/svg"
       width="1536"
@@ -14,7 +14,7 @@
       <path
         d="M0 0H1536V630.383C1536 692.838 1490.1 745.927 1428.18 754.099C1241.87 778.691 1079.97 793.633 923.198 799.263C886.307 800.588 850.006 809.22 816.789 825.325L805.095 830.996C782.492 841.955 756.054 841.662 733.7 830.203L727.575 827.064C693.362 809.527 655.645 800.022 617.23 798.471C461.185 792.17 297.905 777.031 108.933 753.376C46.5319 745.564 0 692.269 0 629.381V0Z"
         fill="white" />
-    </svg>
+    </svg> -->
     <div class="flex justify-center items-center w-1/2">
       <img class="w-96" src="/images/Group 2361.png" alt="" />
     </div>

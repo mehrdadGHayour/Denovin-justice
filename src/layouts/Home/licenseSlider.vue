@@ -1,9 +1,11 @@
 <template>
-  <h1>modix</h1>
-  <img
-    src="/images/.svg"
-    alt=""
-    class="absolute -z-30 select-none" />
+  <div class="bg-secondary w-[1536px] h-[576px]">
+    <img
+      src="../../../public/images/Pattern2.png"
+      alt=""
+      class="absolute  select-none" />
+    
+  </div>
 </template>
 
 <script>
