@@ -42,7 +42,7 @@
                 fill="white" />
             </svg>
           </button>
-          <button class="bg-slate-700 rounded-full Slidebtn" @click="goNext">
+          <button class="bg-slate-700 rounded-full " @click="goNext">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="39"

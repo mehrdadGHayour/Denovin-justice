@@ -3,7 +3,7 @@
     class="absolute top-0 select-none -z-10 max-lg:-right-32 max-lg:w-[600px] lg:w-1/2"
     src="/images/Group2359.svg"
     alt="" />
-  <section class="flex justify-center items-center max-w-7xl mx-auto flex-wrap h-[600px]">
+  <section class="flex justify-center items-center max-w-7xl mx-auto flex-wrap  overflow-x-hidden">
     <!-- <svg
       class="absolute -z-20"
       xmlns="http://www.w3.org/2000/svg"
