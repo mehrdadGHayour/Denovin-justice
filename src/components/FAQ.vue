@@ -71,7 +71,7 @@
           :slidesPerView="3"
           :modules="modules"
           :breakpoints="{
-            '300': {
+             '300': {
               slidesPerView: 1,
               spaceBetween: 50,
             },
@@ -80,16 +80,20 @@
               spaceBetween: 40,
             },
             '768': {
-              slidesPerView: 3,
-              spaceBetween: 40,
+              slidesPerView: 2,
+              spaceBetween: 0,
             },
             '1024': {
+              slidesPerView: 2,
+              spaceBetween: 50,
+            },
+            '1350': {
               slidesPerView: 3,
               spaceBetween: 50,
             },
           }"
           class="mySwiper">
-          <swiper-slide v-for="number in num">
+          <swiper-slide class="mr-5 " v-for="number in num">
             <div
               class="bg-slate-600 sm:w-[385px] h-[76px] rounded-3xl sm:mr-7"></div>
 

@@ -3,7 +3,7 @@
     <div
       class="container mx-auto flex justify-between items-center px-10 lg:px-32 py-5">
       <img class="z-10" src="/images/Logo.png" alt="logo" />
-      <div class="flex items-center gap-5">
+      <div class="flex items-center gap-5 z-[3]">
         <nav
           class="navbar w-[690px] h-[83px] bg-white/30 backdrop-blur rounded-full flex items-center justify-center max-lg:hidden">
           <ul

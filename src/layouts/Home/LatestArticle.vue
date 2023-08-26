@@ -1,18 +1,28 @@
 <template>
-    <div
-      class="bg-secondary flex flex-col  sm:p-10 h-[576px]  items-end w-full gap-10 justify-end relative">
-    <img src="/images/section1.png" alt="" class="absolute -top-1 left-1/2 -translate-x-1/2 w-[1920px] z-[1]">
-      <div class=" self-start pt-3  w-full flex justify-between mt-10">
-        <div>
-          <div class="flex gap-4">
-            <img src="/images/Pattern2.svg" alt="#" class="select-none absolute top-0 " />
-          </div>
+  <div class="flex justify-around">
+    <div class="ml-10">
+      <img src="../../../public/images/latest.svg" alt="" />
+    </div>
+    <div>
+      <div
+        class="text-center text-slate-800 text-sm font-bold flex items-center">
+        <div class="flex items-center">
+          مشاهده همه
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
         </div>
-        <div class="flex gap-5 mt-32 ml-16 justify-between items-center w-full">
-          <div class="flex self-start just"><img src="/images/license.svg" alt=""></div>
-
-          <div class="flex gap-3 ">
-            <button class="bg-slate-700 rounded-full  z-[2]" @click="goBack">
+        <div class="flex gap-3 mr-10">
+          <button class="bg-slate-700 rounded-full z-[2]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="40"
@@ -28,7 +38,9 @@
                 fill="white" />
             </svg>
           </button>
-          <button class="bg-slate-700 rounded-full Slidebtn z-[2]" @click="goNext">
+          <button
+            class="bg-slate-700 rounded-full Slidebtn z-[2]"
+           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="39"
@@ -44,59 +56,19 @@
                 fill="white" />
             </svg>
           </button>
-          </div>
-          
-
         </div>
       </div>
-    
-      <div class="w-full">
-        <swiper-container
-          ref="swiperRef"
-          :slidesPerView="3"
-
-          :breakpoints="{
-            '300': {
-              slidesPerView: 1,
-              spaceBetween: 50,
-            },
-            '640': {
-              slidesPerView: 1,
-              spaceBetween: 40,
-            },
-            '768': {
-              slidesPerView: 3,
-              spaceBetween: 40,
-            },
-            '1024': {
-              slidesPerView: 3,
-              spaceBetween: 50,
-            },
-          }"
-          class="mySwiper">
-          <swiper-slide class="" v-for="number in num">
-            <div class="">
-              <img src="/images/Card.svg" alt="">
-            </div>
-          </swiper-slide>
-        </swiper-container>
-      </div>
     </div>
+  </div>
+
+  <div class="flex justify-center mt-10">
+      <div class="flex justify-center w-[1206px] h-[293px] bg-slate-800 rounded-[27px]">
+      <div class=" w-[1248px] h-[370px] bg-slate-200 rounded-[27px] translate-y-5">
+              
+        </div>
+    </div>
+</div>
+  
 </template>
 
-<script setup>
-import { register } from "swiper/element/bundle";
-import { ref } from "vue";
-
-register();
-const num = [1, 2, 3, 4, 5];
-
-const swiperRef = ref(null);
-
-const goNext = () => {
-  swiperRef.value.swiper.slideNext();
-};
-const goBack = () => {
-  swiperRef.value.swiper.slidePrev();
-};
-</script>
+<script></script>

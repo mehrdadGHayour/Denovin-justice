@@ -1,9 +1,9 @@
 <template>
   <img
-    class="absolute top-0 select-none -z-10 max-lg:-right-32 max-lg:w-[600px] lg:w-1/2"
+    class="absolute top-0 select-none z-[2] max-lg:-right-32 max-lg:w-[600px] lg:w-1/2"
     src="/images/Group2359.svg"
     alt="" />
-  <section class="flex justify-center items-center max-w-7xl mx-auto flex-wrap  overflow-x-hidden">
+  <section class="flex justify-center items-center max-w-7xl mx-auto flex-wrap  overflow-x-hidden pb-10">
     <!-- <svg
       class="absolute -z-20"
       xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +16,7 @@
         fill="white" />
     </svg> -->
     <div class="flex justify-center items-center w-1/2">
-      <img class="w-96" src="/images/Group 2361.png" alt="" />
+      <img class="w-96 z-[3]" src="/images/Group 2361.png" alt="" />
     </div>
     <div class="flex flex-col w-full md:w-1/2 max-md:items-center">
       <div class="flex gap-5 items-center">
