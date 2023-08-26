@@ -1,12 +1,12 @@
 <template>
   <pageHeader />
-  <main>
+  <main class="max-w-[100rem] mx-auto">
     <Section1 />
     <licenseSlider />
     <Aboutus />
-    <contactUs />
     <Latest />
     <Section7 />
+    <Contact />
     <FAQ />
   </main>
   <pageFooter />
@@ -22,6 +22,7 @@ import contactUs from "./layouts/Home/contactUs.vue";
 import Aboutus from "./layouts/Home/Aboutus.vue";
 import Section7 from "./layouts/Home/Section7.vue";
 import Latest from "./layouts/Home/LatestArticle.vue";
+import Contact from "./layouts/Home/contactUs.vue"
 </script>
 
 <style scoped></style>

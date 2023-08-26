@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex justify-center items-center overflow-x-hidden relative h-[700px] mt-[500px]">
+    class="flex justify-center items-center overflow-x-hidden relative h-[700px] mt-[500px] overflow-y-hidden ">
     <img src="/images/section7.png" alt="" class="absolute top-10 max-md:scale-x-150 max-md:scale-y-150" />
     <div class="flex mt-[150px] lg:mt-[480px] xl:mt-[400px] 2xl:mt-[500px] z-10 justify-center md:justify-between w-full lg:px-60 xl:px-44 flex-wrap px-7 max-md:gap-10">
       <div class="flex flex-col">

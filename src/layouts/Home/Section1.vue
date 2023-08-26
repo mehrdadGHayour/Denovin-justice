@@ -1,6 +1,6 @@
 <template>
   <img
-    class="absolute top-0 select-none z-[2] max-lg:-right-32 max-lg:w-[600px] lg:w-1/2"
+    class="absolute top-0 select-none z-[2] max-lg:-right-32 max-lg:w-[600px] lg:w-1/2 4xl:w-2/12"
     src="/images/Group2359.svg"
     alt="" />
   <section class="flex justify-center items-center max-w-7xl mx-auto flex-wrap  overflow-x-hidden pb-10">
@@ -90,4 +90,10 @@
 
 <script></script>
 
-<style scoped></style>
+<style scoped>
+@media (min-width: 1700px) {
+  .\34xl\:w-2\/12 {
+    width: 16.666667%;
+  }
+}
+</style>

@@ -1,8 +1,8 @@
 <template>
   <section
-    class="bg-gradient-to-l from-slate-300 max-w-7xl mx-auto rounded-[70px] p-14 flex gap-5 my-5">
-    <div class="w-1/2">
-      <h1 class="text-4xl"><span class="text-gold">درباره ما</span> بیشتر بدانید</h1>
+    class="bg-gradient-to-l from-slate-300 max-w-7xl mx-auto rounded-[70px] p-5 sm:p-14 flex gap-5 my-5 max-sm:flex-col-reverse overflow-hidden">
+    <div class="sm:w-1/2">
+      <h1 class="text-3xl sm:text-4xl"><span class="text-gold">درباره ما</span> بیشتر بدانید</h1>
       <h2 class="text-slate-400 text-sm w-96 mt-5">
         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
         از طراحان گرافیک است.
@@ -40,8 +40,8 @@
         </button>
       </div>
     </div>
-    <div class="w-1/3">
-      <img src="/images/about.png" alt="" class="scale-150">
+    <div class="sm:w-1/3">
+      <img src="/images/about.png" alt="" class="max-sm:translate-x-10 max-sm:-translate-y-7 scale-150">
     </div>
   </section>
 </template>
