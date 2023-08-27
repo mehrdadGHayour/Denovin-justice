@@ -39,8 +39,8 @@
   </div>
 
   <div class="flex px-52 justify-center  mt-10">
-    <div class="flex  justify-center  w-full h-[293px] bg-slate-800 rounded-[27px]">
-      <div class=" w-full h-[300px] bg-slate-200 rounded-[27px] translate-y-5">
+    <div class="flex  justify-center  w-full  bg-slate-800 rounded-[27px]">
+      <div class=" w-full  bg-slate-200 rounded-[27px] translate-y-5">
 
         <swiper-container
           ref="swiperRef"
